@@ -1,0 +1,25 @@
+process:
+  process.env: false
+  process.argv: false
+module system: false
+  structure: false
+  dot env: false
+FS:
+  read: false
+  write: false
+  stream: false
+PATH:
+  join: false
+  relative: false
+REPL: false
+HTTP:
+  server: false
+  handler: false
+  response: false
+
+HTTPS:
+  http -> https: false
+  options: false
+  certificates: false
+HTTP/2:
+  https -> http2: false
